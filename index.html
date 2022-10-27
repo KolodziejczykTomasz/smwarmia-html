@@ -5,11 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./style.css" />
     <title>Title</title>
 </head>
 <body>
-<header>header</header>
+<header> <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+        <NavLink class="navbar-brand" to="/">
+            <img src="./images/logo.png" alt="Logo SM Warmia" />
+        </NavLink>
+        <div class="navbar-burger">
+            <a
+            role="button"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+            to="#"
+            >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+    <div id="navbarBasicExample" class="">
+    <div class="navbar-start">
+        <a class="navbar-item" href="/#home">
+        Home
+        </a>
+        <div class="item-break">|</div>
+        <a class="navbar-item" href="/#contact">
+        Kontakt
+        </a>
+    </div>
+    </div>
+    <div class="navbar-end">
+        <a href="https://poczta.cyberfolks.pl/" target="_blank" rel="noopener noreferrer" >
+            <User />
+        </a>
+    </div>
+</nav></header>
 <main>
     <section class="hero-section" id="home">
         <div class=" hero-wrapper">
